@@ -87,11 +87,11 @@ app.patch('/todos/:id/done', checksExistsUserAccount, (request, response) => {
 	const { user } = request;
 	const { id } = request.params;
 
-	const todo = user.todos.find(_todo => todo.id == id);
+	const todo = user.todos.find(_todo => _todo.id == id);
 
 	if(todo) {
 		todo.done = true;
-		return response.status(201).send();
+		return response.send();
 	}
 	else {
 		return response.status(404).json({ error: "Todo not found." });
