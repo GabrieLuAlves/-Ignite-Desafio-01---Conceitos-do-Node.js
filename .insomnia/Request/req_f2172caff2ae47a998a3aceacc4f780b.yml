@@ -1,0 +1,25 @@
+_id: req_f2172caff2ae47a998a3aceacc4f780b
+type: Request
+parentId: wrk_7addb27380b54b6db28ddf03620e85f8
+modified: 1652746025884
+created: 1652724784527
+url: "{{ _.baseUrl }}/todos/0697b696-f9d3-4f76-ab58-581cf4bf5204/done"
+name: Set todo as done
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers:
+  - id: pair_4e1ade7c9ae344a2992897a43573abcb
+    name: username
+    value: Username_01
+    description: ""
+authentication: {}
+metaSortKey: -1652724784527
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

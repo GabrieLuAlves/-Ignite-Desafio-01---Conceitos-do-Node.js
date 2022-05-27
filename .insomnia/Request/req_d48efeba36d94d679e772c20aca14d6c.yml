@@ -1,0 +1,34 @@
+_id: req_d48efeba36d94d679e772c20aca14d6c
+type: Request
+parentId: wrk_7addb27380b54b6db28ddf03620e85f8
+modified: 1652746015819
+created: 1652723659787
+url: "{{ _.baseUrl }}/todos/0697b696-f9d3-4f76-ab58-581cf4bf5204"
+name: Todo
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Edited title",
+    	"deadline": "02-02-02"
+    }
+parameters: []
+headers:
+  - id: pair_3bffd0319c7a44d290ff2398f6d3852b
+    name: username
+    value: Username_01
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_a22c1ed30d264ce994483fbd746525f6
+authentication: {}
+metaSortKey: -1652723659787
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

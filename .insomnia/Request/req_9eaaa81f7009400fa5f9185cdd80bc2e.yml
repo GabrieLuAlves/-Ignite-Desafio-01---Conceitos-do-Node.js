@@ -1,0 +1,34 @@
+_id: req_9eaaa81f7009400fa5f9185cdd80bc2e
+type: Request
+parentId: wrk_7addb27380b54b6db28ddf03620e85f8
+modified: 1652745994003
+created: 1652723118687
+url: "{{ _.baseUrl }}/todos"
+name: Todo
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Todo",
+    	"deadline": "01-01-01"
+    }
+parameters: []
+headers:
+  - id: pair_c8b4e2b67be04b1b8f5ae294a36f4b38
+    name: username
+    value: Username_01
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_bc36780172e448b985606a7c685617c3
+authentication: {}
+metaSortKey: -1652723118687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

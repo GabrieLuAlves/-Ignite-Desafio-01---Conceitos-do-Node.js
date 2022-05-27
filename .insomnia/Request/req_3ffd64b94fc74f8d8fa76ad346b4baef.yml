@@ -1,0 +1,25 @@
+_id: req_3ffd64b94fc74f8d8fa76ad346b4baef
+type: Request
+parentId: wrk_7addb27380b54b6db28ddf03620e85f8
+modified: 1652745259872
+created: 1652721980438
+url: "{{ _.baseUrl }}/todos"
+name: Todos of a user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_6c1312b93f90492b89dad72c3105f131
+    name: username
+    value: Username_01
+    description: ""
+authentication: {}
+metaSortKey: -1652721980438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
