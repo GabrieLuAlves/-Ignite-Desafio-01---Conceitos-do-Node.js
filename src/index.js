@@ -39,7 +39,6 @@ app.post('/users', (request, response) => {
 
 	users.push(newUser);
 
-	console.log(users);
 	return response.status(201).json(newUser);
 });
 
@@ -75,7 +74,7 @@ app.put('/todos/:id', checksExistsUserAccount, (request, response) => {
 	if(todo) {
 		todo.title = new_title;
 		todo.deadline = new Date(new_deadline);
-		return response.send();
+		return response.json(todo);
 	}
 	else {
 		return response.status(404).json({ error: 'Todo not found.' });
@@ -91,7 +90,7 @@ app.patch('/todos/:id/done', checksExistsUserAccount, (request, response) => {
 
 	if(todo) {
 		todo.done = true;
-		return response.send();
+		return response.json(todo);
 	}
 	else {
 		return response.status(404).json({ error: "Todo not found." });
